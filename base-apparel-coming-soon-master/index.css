@@ -13,16 +13,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
     font-size: 16px;
 }
 
 .soon_card {
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .soon_card_content {
@@ -35,7 +34,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .logo {
@@ -45,6 +43,7 @@ body {
 
 .woman {
     height: 100%;
+    width: auto;
 }
 
 .soon_card_info {
@@ -137,25 +136,6 @@ body {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
-
