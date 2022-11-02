@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <link rel="stylesheet" href="./index.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="soon_card">
+    <div class="soon_card_content">
+      <div class="soon_card_info">
+        <img class="logo" src="./images/logo.svg" alt="logo">
+        <h1>We're</h1>
+        <h2>coming</br>soon</h2>
+        <p class="main_text">
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <div class="soon_card_mail">
+          <input class="mail" type="email" id="email" name="email" placeholder="Emeail Address">
+          <img class="error_icon hidden" src="./images/icon-error.svg" alt="error icon">
+          <button class="submit_btn" type="submit" >
+            <img src="./images/icon-arrow.svg" alt="submit button">
+          </button>
+        </div>
+        <span class="mail_incorrect hidden">Please provide a valid email</span>
+        <span class="mail_correct hidden">Email send</span>
+      </div>
+    </div>
+    <img class="woman" src="./images/hero-desktop.jpg" alt="woman">
+  </div>
+  
+
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="http://mateuszkarpinski.netlify.app/">Mateussz Karpiński</a>.
+    </p>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
