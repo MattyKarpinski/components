@@ -110,7 +110,7 @@ body {
 }
 
 .form_list_input:focus {
-    border: 2px solid hsl(248, 32%, 49%) !important;
+    outline: none;
 }
 
 .submit_btn {
@@ -146,6 +146,24 @@ body {
 
 footer {
     margin: 32px 0;
+}
+
+.error {
+    border: 2px solid hsl(0, 100%, 74%);
+    background: url(./images/icon-error.svg) no-repeat;
+}
+
+.error-text {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: auto;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color: hsl(0, 100%, 74%);
+}
+
+.success {
+    border: 2px solid hsl(154, 56%, 40%);
 }
 
 @media screen and (max-width: 1024px) {

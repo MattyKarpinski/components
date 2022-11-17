@@ -14,7 +14,7 @@ formMain.addEventListener("submit", e => {
     let passwordValue = password.value.trim();
 
     if(firstNameValue === '') {
-        errorFunction(firstName, 'spierdalaj do dupy imie')
+        errorFunction(firstName, 'podaj poprawnie imię')
     } 
     else {
         successFunction(firstName)
@@ -23,10 +23,10 @@ formMain.addEventListener("submit", e => {
 
 function errorFunction( req, message) {
     const formControl = req.parentElement;
-    const span = formControl.querySelector('span');
+    const span = formControl.querySelector('.comment');
     span.innerText = message;
-    req.className += 'error';
-    span.className += 'error-text'
+    req.className.add('error');
+    span.className.add('error-text');
 }
 
 function successFunction( req) {
