@@ -10,44 +10,128 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; padding: 32px; font-size: 16px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  div
-
-  Notifications 3
-
-  Mark all as read
-
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
-
-  Angela Gray followed you
-  5m ago
-
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
-
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
-
-  Kimberly Smith commented on your picture
-  1 week ago
-
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
-
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
+  <div class="container">
+    <div class="header">
+      <div class="noticications">
+        <h1>Notifications</h1>
+        <span class="noti_counter">3</span>
+      </div>
+      <span class="mark_read">Mark all as read</span>
+    </div>
+    <div class="board_noti">
+      <ul class="board_noti_list">
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-mark-webber.webp" alt="avatar">
+          <div class="elem_data">
+            <p class="elem_info">
+              <span class="elem_name">
+                Mark Webber
+              </span> 
+              reacted to your recent post My first tournament today!
+            </p>
+            <span class="message_time">1m ago</span>
+          </div>
+        </li>
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-angela-gray.webp" alt="avatar">
+          <div class="elem_data">
+            <div class="elem_message">
+              <p class="elem_name">
+                Angela Gray
+              </p>
+              <p class="elem_info">
+                followed you
+              </p>
+            </div>
+            <span class="message_time">5m ago</span>
+          </div>
+        </li>
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-jacob-thompson.webp" alt="avatar">
+          <div class="elem_data">
+            <div class="elem_message">
+              <p class="elem_name">
+                Jacob Thompson
+              </p>
+              <p class="elem_info">
+                has joined your group Chess Club
+              </p>
+            </div>
+            <span class="message_time">1 day ago</span>
+          </div>
+        </li>
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="avatar">
+          <div class="elem_data">
+            <div class="elem_message">
+              <p class="elem_name">
+                Rizky Hasanuddin 
+              </p>
+              <p class="elem_info">
+                sent you a private message
+              </p>
+            </div>
+            <span class="message_time">5 days ago</span>
+            <p class="elem_text">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </li>
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-kimberly-smith.webp" alt="avatar">
+          <div class="elem_data">
+            <div class="elem_message">
+              <p class="elem_name">
+                Kimberly Smith
+              </p>
+              <p class="elem_info">
+                commented on your picture
+              </p>
+            </div>
+            <span class="message_time">1 week ago</span>
+          </div>
+        </li>
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-nathan-peterson.webp" alt="avatar">
+          <div class="elem_data">
+            <div class="elem_message">
+              <p class="elem_name">
+                Nathan Peterson
+              </p>
+              <p class="elem_info">
+                reacted to your recent post 5 end-game strategies to increase your win rate
+              </p>
+            </div>
+            <span class="message_time">2 weeks ago</span>
+          </div>
+        </li>
+        <li class="board_noti_elem">
+          <img class="avatar" src="./assets/images/avatar-anna-kim.webp" alt="avatar">
+          <div class="elem_data">
+            <div class="elem_message">
+              <p class="elem_name">
+                Anna Kim
+              </p>
+              <p class="elem_info">
+                left the group Chess Club
+              </p>
+            </div>
+            <span class="message_time">2 weeks ago</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://mateuszkarpinski.netlify.app/">Mateusz Karpiński</a>.
   </div>
   <script src="./index.js"></script>
 </body>

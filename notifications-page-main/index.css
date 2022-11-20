@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Very-light-grayish-blue: hsl(210, 60%, 98%);
+--Light-grayish-blue-1: hsl(211, 68%, 94%);
+--Light-grayish-blue-2: hsl(205, 33%, 90%);
+--Grayish-blue: hsl(219, 14%, 63%);
+--Dark-grayish-blue: hsl(219, 12%, 42%);
+--Very-dark-blue: hsl(224, 21%, 14%);
+--Blue: hsl(240, 61%, 40%);
+}
+
+body{
+    background-color: var(--Light-grayish-blue-1);
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    padding: 32px;
+    background-color: var(--White);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.noticications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticications h1{
+    color: var(--Very-dark-blue);
+    font-weight: 800;
+}
+
+.noti_counter{
+    height: auto;
+    margin: 0 16px;
+    padding: 3px 12px;
+    background-color: var(--Blue);
+    border-radius: 8px;
+    color: var(--Light-grayish-blue-2);
+}
+
+.mark_read {
+    color: var(--Dark-grayish-blue);
+    font-weight: 500;
+}
+
+.mark_read:hover {
+    color: var(--Blue);
+    cursor: pointer;
+}
+
+.board_noti{
+    padding: 16px 0;
+}
+
+.board_noti_list {
+    list-style: none;
+}
+
+.board_noti_elem {
+    padding: 16px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+}
+
+.elem_data{
+    margin-left: 16px;
+}
+
+.elem_message{
+    display: flex;
+}
+
+.board_noti_elem:nth-child(-n+3) {
+    background-color: var(--Light-grayish-blue-1);
+    border-radius: 12px;
+}
+
