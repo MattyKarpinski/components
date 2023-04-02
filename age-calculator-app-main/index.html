@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
   
   <title>Frontend Mentor | Age calculator app</title>
 
@@ -16,22 +17,40 @@
 </head>
 <body>
 
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-  
+  <div class="calculator">
+    <div class="dates">
+      <div class="days">
+        <span>DAY</span>
+        <input type="number" name="day" id="day">
+      </div>
+      <div class="months">
+        <span>MONTH</span>
+        <input type="number" name="month" id="month">
+      </div>
+      <div class="years">
+        <span>YEAR</span>
+        <input type="number" name="year" id="year">
+      </div>
+    </div>
+    <span class="spliter"></span>
+    <div class="results-data">
+      <div class="results-data-years">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="results-data-months">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="results-data-days">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Mateusz Karpiński</a>.
   </div>
 </body>
 </html>
